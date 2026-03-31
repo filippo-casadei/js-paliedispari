@@ -42,6 +42,11 @@ else {
     risultato = "dispari"
 }
 
+console.log("Numero Utente:", numeroUtente);
+console.log("Numero PC:", numeroRandomPc);
+console.log("Somma dei due numeri:", sommaDeiDueNumeri);
+console.log("Risultato:", risultato);
+
 let risultatoFinale = "";
 if ( risultato === inserisciScelta) {
     console.log("HAI VINTO")
