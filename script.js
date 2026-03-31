@@ -18,6 +18,12 @@
 const parolaUtente = prompt("Inserisci una parola");
 
 // scheletro della funzione:
-function palindromo () {
-    
+// Aggiungo alla funzione una variabile per la parola invertita vuota perchè andrà composta
+// con un ciclo for.
+function palindromo (parola) {
+    let parolaInvertita = "";
+
+    for (let i = parola.length -1; i >= 0; i--) {
+        parolaInvertita = parolaInvertita + parola[i]
+        }
 }
