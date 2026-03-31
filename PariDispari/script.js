@@ -42,6 +42,11 @@ else {
     risultato = "dispari"
 }
 
-
+let risultatoFinale = "";
+if ( risultato === inserisciScelta) {
+    console.log("HAI VINTO")
+} else {
+    console.log("HAI PERSO")
+}
 
 
