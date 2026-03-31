@@ -12,4 +12,12 @@
 
 // ===================================================================================
 
+
+// variabile costante uguale ad un prompt che richiede all'utente di inserire 
+// una parola.
 const parolaUtente = prompt("Inserisci una parola");
+
+// scheletro della funzione:
+function palindromo () {
+    
+}
