@@ -19,3 +19,8 @@
 //  0 o 1 e quindi potrò inserire if 0 pari else dispari.
 // dovrò poi confrontare la scelta dell'utente con il risultato ottenuto e dichiarare il
 // vincitore in console.log
+
+// =======================================================================================
+
+const inserisciScelta = prompt("Inserisci pari o dispari");
+const inserisciNumero =prompt("Inserisci un numero da 1 a 5");
