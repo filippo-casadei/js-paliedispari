@@ -9,3 +9,7 @@
 //                             - capisca se al contrario è uguale
 // 3 - se sono uguali --> è palindroma
 // 4- Se sono diverse --> non è palindroma
+
+// ===================================================================================
+
+const parolaUtente = prompt("Inserisci una parola");
