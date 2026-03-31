@@ -29,6 +29,11 @@ function palindromo (parola) {
     for (let i = parola.length -1; i >= 0; i--) {
         parolaInvertita = parolaInvertita + parola[i]
         }
-    
+    if (parolaInvertita === parola) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
