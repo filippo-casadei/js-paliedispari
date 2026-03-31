@@ -26,6 +26,7 @@ const inserisciScelta = prompt("Inserisci pari o dispari");
 const inserisciNumero =prompt("Inserisci un numero da 1 a 5");
 const numeroUtente = Number(inserisciNumero);
 
+
 function numeroRandom () {
     return (Math.floor(Math.random() *5)+1);
     
@@ -34,4 +35,13 @@ function numeroRandom () {
 let numeroRandomPc = numeroRandom();
 
 let sommaDeiDueNumeri = numeroRandomPc + numeroUtente;
+if (sommaDeiDueNumeri % 2 === 0){
+    risultato = "pari"
+}
+else {
+    risultato = "dispari"
+}
+
+
+
 
